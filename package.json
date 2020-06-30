@@ -4,7 +4,7 @@
   "description": "JavaScript example starter project",
   "main": "index.html",
   "scripts": {
-    "start": "parcel src/index.html --open -d build",
+    "start": "parcel demo/index.html --open -d build",
     "build": "rm -rf build && parcel build src/index.html -d build"
   },
   "dependencies": {},
