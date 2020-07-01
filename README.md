@@ -27,3 +27,7 @@ renderLut({
 ## Sample
 
 ![](https://gw.alicdn.com/tfs/TB1bgsjMhz1gK0jSZSgXXavwpXa-512-512.png)
+
+## License
+
+Licensed under [MIT](./LICENSE)
