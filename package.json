@@ -22,6 +22,9 @@
   ],
   "author": "Hsun",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/linkgod/lut-canvas/issues"
+  },
   "dependencies": {},
   "devDependencies": {
     "@babel/core": "7.2.0",
