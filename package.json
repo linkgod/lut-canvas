@@ -4,8 +4,8 @@
   "description": "JavaScript example starter project",
   "main": "index.html",
   "scripts": {
-    "start": "parcel demo/index.html --open -d build",
-    "build": "rm -rf build && parcel build src/index.html -d build"
+    "start": "rm -rf build && parcel demo/index.html --open -d build",
+    "build": "rm -rf build && parcel build demo/index.html -d build"
   },
   "dependencies": {},
   "devDependencies": {

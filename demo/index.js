@@ -1,13 +1,13 @@
 import './styles.css';
-import lut from '../src/index';
-
-lut();
+import renderLut from '../src/index';
 
 document.getElementById('app').innerHTML = `
-<h1>Hello Vanilla!</h1>
-<div>
-  We use the same configuration as Parcel to bundle this sandbox, you can find more
-  info about Parcel
-  <a href="https://parceljs.org" target="_blank" rel="noopener noreferrer">here</a>.
-</div>
+  <h1>Look Up Table</h1>
+  <canvas id="lut"></canvas>
 `;
+
+renderLut({
+  chunkWidth: 64,
+  num: 64,
+  row: 8,
+}, document.getElementById('lut'));
