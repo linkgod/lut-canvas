@@ -7,7 +7,7 @@ document.getElementById('app').innerHTML = `
 `;
 
 renderLut({
-  chunkWidth: 64,
+  blockWidth: 64,
   num: 64,
   row: 8,
 }, document.getElementById('lut'));
