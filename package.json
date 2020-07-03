@@ -8,6 +8,7 @@
   "source": "src/index.js",
   "scripts": {
     "start": "parcel ./demo/index.html --open -d build",
+    "deploy": "parcel build ./demo/index.html -d build",
     "build": "rollup -c"
   },
   "repository": {
