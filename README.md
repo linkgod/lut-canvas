@@ -1,5 +1,7 @@
 # lut-canvas
 
+[![npm](https://flat.badgen.net/npm/dt/lut-canvas)](https://npmcharts.com/compare/lut-canvas?minimal=true) [![npm](https://flat.badgen.net/npm/v/lut-canvas)](https://www.npmjs.com/package/lut-canvas) [![NPM](https://flat.badgen.net/github/license/linkgod/lut-canvas)](https://www.npmjs.com/package/lut-canvas)
+
 Render RGB lookup tables via canvas.
 
 ## Installation
