@@ -1,14 +1,14 @@
 {
   "name": "lut-canvas",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Render RGB lookup tables via canvas",
-  "main": "src/index.js",
-  "files": [
-    "src"
-  ],
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.esm.js",
+  "browser": "dist/index.umd.js",
+  "source": "src/index.js",
   "scripts": {
-    "start": "rm -rf build && parcel demo/index.html --open -d build",
-    "build": "rm -rf build && parcel build demo/index.html -d build"
+    "start": "parcel ./demo/index.html --open -d build",
+    "build": "rollup -c"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,12 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@babel/core": "7.2.0",
-    "parcel-bundler": "^1.6.1"
+    "@babel/core": "^7.2.0",
+    "@babel/preset-env": "^7.10.4",
+    "@rollup/plugin-babel": "^5.0.4",
+    "@rollup/plugin-commonjs": "^13.0.0",
+    "@rollup/plugin-node-resolve": "^8.1.0",
+    "parcel-bundler": "^1.6.1",
+    "rollup": "^2.18.2"
   }
 }
