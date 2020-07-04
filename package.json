@@ -7,8 +7,8 @@
   "browser": "dist/index.umd.js",
   "source": "src/index.js",
   "scripts": {
-    "start": "parcel ./demo/index.html --open -d build",
-    "deploy": "parcel build ./demo/index.html -d build",
+    "start": "parcel ./demo/index.html --open -d build --public-url ./",
+    "deploy": "parcel build ./demo/index.html -d build --public-url ./",
     "build": "rollup -c"
   },
   "repository": {
