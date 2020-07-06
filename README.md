@@ -26,7 +26,9 @@ renderLut({
 }, document.body);
 ```
 
-## Sample
+## Live demo
+
+https://linkgod.github.io/lut-canvas/
 
 ![](https://gw.alicdn.com/tfs/TB1bgsjMhz1gK0jSZSgXXavwpXa-512-512.png)
 

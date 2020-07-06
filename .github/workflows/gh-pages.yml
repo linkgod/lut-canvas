@@ -19,10 +19,10 @@ jobs:
     steps:
     # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
     - uses: actions/checkout@v2
-    
+
     - name: Setup Node.js environment
       uses: actions/setup-node@v2.1.0
-    
+
     - name: Cache dependencies
       uses: actions/cache@v2.0.0
       with:
@@ -42,5 +42,5 @@ jobs:
       with:
         # Set a generated GITHUB_TOKEN for pushing to the remote branch.
         github_token: ${{ secrets.GITHUB_TOKEN }}
-        # Set an input directory for deployment.: 
+        # Set an input directory for deployment.
         publish_dir: ./build
